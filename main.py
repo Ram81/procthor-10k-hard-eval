@@ -8,7 +8,7 @@ try:
 except:
     raise ImportError("Please update the prior package (pip install --upgrade prior).")
 
-VALID_SCENE_DATASETS = {"ithor", "robothor", "procthor-10k", "architecthor"}
+VALID_SCENE_DATASETS = {"procthor-10k-hard"}
 
 
 #%%
